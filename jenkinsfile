@@ -1,8 +1,8 @@
-pipeline
+pipeline{
 agent any
 stages{
     stage("This is the first test job"){
-        step(echo'This is the first test job')
+        step{echo'This is the first test job'}
     }
 
-}
+}}

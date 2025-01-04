@@ -8,7 +8,7 @@ pipeline
     stage("This is the first test job")
     {
 
-        step{ echo 'This is the first test job'}
+        steps{ echo 'This is the first test job'}
     }
 
 }}
